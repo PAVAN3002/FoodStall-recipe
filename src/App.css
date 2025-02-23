@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body and general layout */
+body {
+  background-color:cornsilk;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #17a278;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #9eb9ea;
+  color: rgb(5, 14, 18);
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Form styling */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #fff;
+}
+
+/* Navbar */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: limegreen;
+}
+
+nav button {
+  background-color: #333;
+  color:lightslategrey;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #555;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    margin: 10px 0;
+    display: block;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  input,
+  button {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
